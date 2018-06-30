@@ -82,3 +82,9 @@ of the paper and results section for furthur data.
 ### Results  
 
 Will be posted once training is done
+
+
+### Thanks to:  
+
+https://github.com/tetrachrome/subpixel , Tetrachrome for his subpixel convolution layer in Keras. Though there were bugs  
+But got it working. Will read the ESPCN paper for better understanding.
