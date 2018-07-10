@@ -92,7 +92,16 @@ of the paper and results section for furthur data.
 
 ### Results  
 
+2x results  
 
+low resolution image  
+<img src="https://i.imgur.com/XkVB0En.png">  
+
+bicubic image  
+<img src="https://i.imgur.com/jt3UOS6.png">  
+
+generated image from RDN  
+<img src="https://i.imgur.com/7sWR0WD.png">
 
 
 ### Thanks to:  
