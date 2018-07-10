@@ -92,7 +92,7 @@ of the paper and results section for furthur data.
 
 ### Results  
 
-2x results  
+#### 2x results  
 
 low resolution image  
 <img src="https://i.imgur.com/XkVB0En.png">  
@@ -102,6 +102,22 @@ bicubic image
 
 generated image from RDN  
 <img src="https://i.imgur.com/7sWR0WD.png">
+
+#### 4x results  
+
+low resolution image  
+<img src="https://i.imgur.com/0Xk0bMh.png">  
+
+bicubic image  
+<img scc="https://i.imgur.com/HqlJE2n.png">  
+
+generated image from RDN  
+<img src="https://i.imgur.com/qD1Ytu7.png">  
+
+the network has an incremental Upsampling block at the end of the features transformation and extraction and i am not sure was is the intended way of creating 4x and 8x results. But really great and well written paper from the authors. I did mailed them and they were generous enough to help me understand training details.  
+
+### Train  
+On standard DIV2k dataset for 2x there are 32x32 640,000 input patches and corresponding high resolution patches. I took a random sample of 16,000  and went for one epoch on it with batch size of 16. If you read the paper they had a similar method. It just that they had defined 1000 iterations as one epoch for 16 batch size and i took 16000 as one epoch.
 
 
 ### Thanks to:  
